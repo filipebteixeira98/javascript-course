@@ -45,13 +45,13 @@ function newFunction( a, b, c ) {
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
-console.log( newFunction(1, 2) );
+console.log( newFunction( 1, 2 ) );
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 // O retorno da função é igual a 'Preencha todos os valores corretamente!'
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-console.log( newFunction(2, 3 ,4) );
+console.log( newFunction( 2, 3 ,4 ) );
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 // O retorno da função é igual a 26
@@ -65,7 +65,7 @@ Crie uma função com as seguintes características:
 5. Se nenhum argumento for passado, retorne o valor booleano `false`.
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
-function threeArgs(x, y, z) {
+function threeArgs( x, y, z ) {
   if( x !== undefined && y === undefined && z === undefined) {
     return x;
   } else if( x !== undefined && y !== undefined && z === undefined) {
@@ -82,6 +82,6 @@ function threeArgs(x, y, z) {
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 console.log( threeArgs() );
 console.log( threeArgs(1) );
-console.log( threeArgs(1, 2) );
-console.log( threeArgs(1, 2, 3) );
+console.log( threeArgs( 1, 2 ) );
+console.log( threeArgs( 1, 2, 3 ) );
 ```
