@@ -30,7 +30,7 @@ console.log( isTruthy( [] ) );
 console.log( isTruthy( {} ) );
 console.log( isTruthy( function() {} ) );
 console.log( isTruthy( 20 * 30 ) );
-console.log( isTruthy( function display() { return 'function output'} );
+console.log( isTruthy( function display() { return 'function output'; } );
 console.log( isTruthy( { a : 1, b : 3} ) );
 console.log( isTruthy( [1, 2 , 3] ) );
 
@@ -115,12 +115,12 @@ carro.adicionarPessoas = function( numeroPessoas ) {
   var totalPessoas = carro.quantidadePessoas + numeroPessoas;
   var quantasPessoasCabem = carro.assentos - carro.quantidadePessoas;
   var pluralOuSingular = quantasPessoasCabem === 1 ? 'pessoa' : 'pessoas';
-  if( carro.quantidadePessoas === carro.assentos && totalPessoas > carro.assentos ) return 'O carro já está lotado!';
-  if( totalPessoas > carro.assentos ) {
+  if( carro.quantidadePessoas === carro.assentos && totalPessoas > carro.assentos )
+    return 'O carro já está lotado!';
+  if( totalPessoas > carro.assentos )
     return 'Só cabem mais ' + quantasPessoasCabem + ' ' + pluralOuSingular + '!';
-  }
   carro.quantidadePessoas += numeroPessoas;
-  return 'Já temos ' + carro.quantidadePessoas + ' pessoas no carro!';
+  return 'Já temos ' + carro.quantidadePessoas + ' ' + pluralOuSingular + ' no carro!';
 };
 
 /*

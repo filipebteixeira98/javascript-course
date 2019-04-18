@@ -29,7 +29,7 @@ function newFunction( arr, index ) {
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
-var newArray = [ 'Javascript', { property : 'value'}, [1, 2, 3], function calculateSum(x, y) { return x + y; }, undefined]
+var newArray = [ 'Javascript', { property : 'value'}, [1, 2, 3], function calculateSum(x, y) { return x + y; }, undefined ];
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
@@ -57,7 +57,7 @@ os livros.
 */
 function book( bookName ) {
   var allBooks = {
-    'Segredos do Ninja Javascript' :{
+    'Segredos do Ninja Javascript' : {
       quantidadePaginas : 488,
       autor : 'John Resig & Bear Bibeault',
       editora : 'Novatec'
@@ -72,7 +72,7 @@ function book( bookName ) {
       autor : 'Erick A. Meyer',
       editora : 'Bookman'
     }
-  }
+  };
   return !bookName ? allBooks : allBooks[bookName];
 }
 
