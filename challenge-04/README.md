@@ -134,13 +134,13 @@ Qual a cor atual do carro?
 console.log( carro.obterCor() ); // Azul
 
 // Mude a cor do carro para vermelho.
-console.log( carro.mudarCor( 'vermelho' ) );
+carro.mudarCor( 'vermelho' );
 
 // E agora, qual a cor do carro?
 console.log( carro.obterCor() ); // Vermelho
 
 // Mude a cor do carro para verde musgo.
-console.log( carro.mudarCor( 'Verde musgo' ) );
+carro.mudarCor( 'Verde musgo' );
 
 // E agora, qual a cor do carro?
 console.log( carro.obterCor() ); // Verde musgo
