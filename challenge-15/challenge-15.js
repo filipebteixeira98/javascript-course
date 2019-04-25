@@ -76,6 +76,6 @@
   */
   console.log( '\nNova idade das pessoas:' );
   console.log( fernando.getFullName() + ' agora tem ' + fernando.addAge(2).getAge() + ' anos.');
-  console.log( joao.getFullName() + ' agora tem ' + fernando.addAge(4).getAge() + ' anos.');
-  console.log( maria.getFullName() + ' agora tem ' + fernando.addAge(-2).getAge() + ' anos.');
+  console.log( joao.getFullName() + ' agora tem ' + joao.addAge(4).getAge() + ' anos.');
+  console.log( maria.getFullName() + ' agora tem ' + maria.addAge(-2).getAge() + ' anos.');
 })();
